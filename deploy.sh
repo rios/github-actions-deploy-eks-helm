@@ -47,7 +47,7 @@ else
 fi
 
 # If defined, will set up authentication parameters
-if [ "${HELM_ACTION}" == "install" ] && [ "${OCI_REGISTRY}" != "true" ]; then
+if [ "${HELM_ACTION}" == "install" ]; then
 
     # Authentication management
 
